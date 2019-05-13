@@ -296,7 +296,7 @@ public enum JpgStatService {
 	private final ExecutorService payloadProcessingService = Executors.newFixedThreadPool(PROCESSING_POOL_SIZE);
 
 	private static final int QUEUE_SIZE = 10;
-	private static final int PROCESSING_POOL_SIZE = 2;
+	private static final int PROCESSING_POOL_SIZE = 1;
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(JpgStatService.class);
 
